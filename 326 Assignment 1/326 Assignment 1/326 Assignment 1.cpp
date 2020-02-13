@@ -97,8 +97,12 @@ int main()
                 break;
             }
 
-            // creating random processer id (PID) from 1 - 999
-            newId = randNum(998) + 1;
+            // creating random processer id (PID) from 100 - 999
+            // and checks if there is an existing pid and recreates a new one
+            do 
+            {
+                newId = randNum(899) + 100;
+            } while (RQ.find(newId));
 
             // creating new page table with size of memSize
             int* pt;
