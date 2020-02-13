@@ -113,7 +113,7 @@ int main()
                     memLeft--; // subtracts the remaining memory to be allocated
                     MBT.blocks--; // subtracting block from amount
                     MBT.stateOfMem[i] = true; // setting block to occupied
-                    *(pt + counter) = i + 1; // placing the block number into the page table
+                    *(pt + counter) = i; // placing the block number into the page table
                     counter++; // moving to next array space in pt
                 }
 

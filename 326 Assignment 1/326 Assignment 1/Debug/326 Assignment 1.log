@@ -1,3 +1,4 @@
 ﻿  326 Assignment 1.cpp
+C:\Users\jetho\source\repos\CECS-326---Operating-Systems\326 Assignment 1\326 Assignment 1\326 Assignment 1.cpp(230,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\jetho\source\repos\CECS-326---Operating-Systems\326 Assignment 1\326 Assignment 1\LinkedList.h(97): warning C4715: 'LinkedList::deleteNode': not all control paths return a value
   326 Assignment 1.vcxproj -> C:\Users\jetho\source\repos\CECS-326---Operating-Systems\326 Assignment 1\Debug\326 Assignment 1.exe
