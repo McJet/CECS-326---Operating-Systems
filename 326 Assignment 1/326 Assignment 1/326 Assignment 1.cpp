@@ -1,6 +1,7 @@
 // 326 Assignment 1.cpp : This file contains the 'main' function. Program execution begins and ends here.
 
 #include <iostream>
+#include <time.h>
 #include "LinkedList.h"
 #include "ProcessControlBlock.h"
 
@@ -226,6 +227,7 @@ void PrintMenu()
 // generates a random number from 0 - limit
 int randNum(int limit) 
 {
+    srand(time(NULL));
     int i = rand() % limit + 1;
     return i;
 }
